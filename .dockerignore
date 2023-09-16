@@ -1,0 +1,9 @@
+.devcontainer/
+.env
+.env_sample
+.git/
+.gitignore
+awscli.sh
+docker-compose.yml
+Dockerfile
+README.md

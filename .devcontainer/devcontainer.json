@@ -1,0 +1,29 @@
+{
+  "name": "Slack Lambda Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "dev",
+  "workspaceFolder": "/var/task",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "amazonwebservices.aws-toolkit-vscode",
+        "njqdev.vscode-python-docstring",
+        "magicstack.MagicPython",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "kevinrose.vsc-python-indent",
+        "ms-python.pylint",
+        "ms-python.python",
+        "esbenp.prettier-vscode",
+        "microsoft.vscode-docker",
+        "njpwerner.autodocstring",
+        "ms-python.vscode-black"
+      ]
+    }
+  },
+  "remoteUser": "root",
+  "shutdownAction": "stopCompose"
+}
